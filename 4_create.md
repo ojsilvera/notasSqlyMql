@@ -28,6 +28,7 @@
       (comment 'el comentario',solo es visto por quien ve la estructura de la tabla)
       (varchar(n), setea el numero de caracteres del campo en n)
       (text, campo de conjunto de caracteres largo)
+      (NUM(‘item1’, ‘item2’, ‘item2’), campo de tipo listado, muestra una lista de elementos pre-configurados)
       Create TABLE IF NOT EXISTS nombreTabla(
       campo1_id UNSIGNED INTEGER PRIMARY KEY AUTO_INCREMENT,
       campo2 tipo NOT NULL,
