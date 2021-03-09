@@ -15,5 +15,8 @@
   -Muestra la base de datos en uso:
     show tables;
 
+  -Muestra errores al ejecutar un comando:
+    show warnings;
+
   -Salir de mysql:
      \q o ctrl + d
